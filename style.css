@@ -1,10 +1,13 @@
 body {
-  background-color: #f8efd4;
+
   text-align: center;
+  font-family: 'Roboto Mono', monospace;
+  background-image: url("images/flag.jpg");
+   background-size: 1876px;
 }
 
 h1 {
-  color: #132743;
+  color: #d7385e;
   font-size:70px;
   margin-bottom: 1px;
   margin-top: 0px;
@@ -13,9 +16,14 @@ h1 {
 }
 
 h2 {
-font-family: 'Roboto Mono', monospace;
   margin-top:1px;
   padding-top: 0px;
+  color: #edc988;
+}
+
+p {
+
+  font-size: 26px;
   color: #edc988;
 }
 
@@ -24,7 +32,7 @@ font-family: 'Roboto Mono', monospace;
   margin-left: auto;
   margin-right: auto;
   border-radius: 500px;
-  border: 10px solid #132743;
+  border: 10px solid #d7385e;
   box-shadow: 2px 2px 3px  gray;
 }
 
@@ -47,7 +55,7 @@ font-family: 'Roboto Mono', monospace;
 }
 
 .card {
-  background-color: #d7385e;
+  background-color: #132743;
   width: 80%;
   margin: 32px auto;
   box-shadow: 0 0 16px rgba(0,0,0,0.2);
@@ -66,9 +74,10 @@ li{
   display: inline-block;
 }
 li a {
-  margin: 10px;
-  color: #132743;
+  margin: 8px;
+  color: #edc988;
   font-style:none;
+  font-size: 16px;
 }
 
 i {
