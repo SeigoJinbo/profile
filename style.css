@@ -1,0 +1,104 @@
+body {
+  background-color: #f8efd4;
+  text-align: center;
+}
+
+h1 {
+  color: #132743;
+  font-size:70px;
+  margin-bottom: 1px;
+  margin-top: 0px;
+  padding-top: 0px;
+  font-family: 'Anton', sans-serif;
+}
+
+h2 {
+font-family: 'Roboto Mono', monospace;
+  margin-top:1px;
+  padding-top: 0px;
+  color: #edc988;
+}
+
+.pic {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 500px;
+  border: 10px solid #132743;
+  box-shadow: 2px 2px 3px  gray;
+}
+
+.button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 10px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 3px  crimson;
+}
+
+.button:hover {
+  background-color: red;
+
+}
+
+.card {
+  background-color: #d7385e;
+  width: 80%;
+  margin: 32px auto;
+  box-shadow: 0 0 16px rgba(0,0,0,0.2);
+  margin-top: 0px;
+  padding: 24px;
+}
+
+/*div {
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}*/
+
+li{
+  list-style: none;
+  display: inline-block;
+}
+li a {
+  margin: 10px;
+  color: #132743;
+  font-style:none;
+}
+
+i {
+  color: #edc988;
+
+}
+
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    margin: 0px auto;
+    width: 900px;
+  }
+
+  @media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 900px;
+  }
+}
+@media (max-width: 900px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 650px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+
